@@ -1,0 +1,21 @@
+
+callback.txt
+
+
+
+En el menu.py de este directorio evaluamos
+
+>> mdl.callback.create_callbacks()
+
+La ejecucion en menu tiene dos motivos.Por un lado evitamos una doble evaluación y por otro los callbacks solo funcionaran en modo GUI, en modo terminal los scripts son estaticos.
+
+
+mdl.callback.create_callbacks()
+-------------------------------
+
+Este comando crea un callback generico para todos los nodos excepto de KNOBCHANGED que es creado cuando se crea un tipo de nodo previamente definido por el usuario en forma de un archivo .node.py
+
+
+
+
+
